@@ -19,7 +19,7 @@ Projekt obejmuje modernizację sprzętową oraz programową pojazdu typu dicykl 
 * `ESP32` - Projekt komunikacji bezprzewodowej.
 * `3D Model` - Modele 3D użyte w projekcie. Zostały zaprojektowane z myślą o druku 3D. Ponieważ są to elementy silnie narażone na uszkodzenia mechaniczne, zaleca się stosowanie znacznie większego wypełnienia (infill) podczas druku.
 * `VESC_BACKUP` - Zapis konfiguracji dla silników. **UWAGA:** Należy używać starszej wersji programu VESC Tool. Nowsze wersje posiadają ograniczone wsparcie dla silników szczotkowych.
-* `measurements` - Pomiary i odczyty z czujników pobrane za pomocą narzędzia SerialPlot, przeanalizowane w programie MATLAB (struktura danych: #empty).
+* `measurements` - Pomiary i odczyty z czujników pobrane za pomocą narzędzia SerialPlot, przeanalizowane w programie MATLAB (struktura danych: Rzeczywisty prąd prawego silnika, Rzeczywisty prąd lewego silnika, Zadany prąd prawego silnika, Zadany prąd lewego silnika, Kąt pochylenia gondoli, Zadany kąt pochylenia gondoli, Prędkość prawego silnika, Prędkość lewego silnika, Zadana Prędkość prawego silnika, Zadana prędkość lewego silnika).
 * `code_copy` oraz `code_copy_v2` - Kopie zapasowe starszych wersji kodu oraz specjalnych programów pomiarowych do identyfikacji obiektu.
 * `Use_Instruction` - Plik zawierający szczegółowe instrukcje dotyczące sposobu sterowania pojazdem.
 
@@ -47,7 +47,7 @@ This project covers the hardware and software modernization of a two-wheeled dic
 * `ESP32` - Wireless communication project files.
 * `3D Model` - 3D models used in the project. Designed for 3D printing. Since these parts are highly susceptible to mechanical damage, printing with a high infill percentage is strongly recommended.
 * `VESC_BACKUP` - Configuration backups for the motors. **WARNING:** An older version of the VESC Tool must be used. Newer versions have deprecated or reduced support for brushed motors.
-* `measurements` - Sensor readings and data collected using SerialPlot, analyzed in MATLAB (data structure: #empty).
+* `measurements` - Sensor readings and data collected using SerialPlot, analyzed in MATLAB (data structure: ctual right motor current, Actual left motor current, Target right motor current, Target left motor current, Nacelle tilt angle, Target nacelle tilt angle, Right motor speed, Left motor speed, Target right motor speed, Target left motor speed).
 * `code_copy` and `code_copy_v2` - Backups of older code versions and specific measurement programs used for system identification.
 * `Use_Instruction` - A file containing detailed instructions on how to control and operate the vehicle.
 
