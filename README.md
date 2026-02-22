@@ -47,7 +47,7 @@ This project covers the hardware and software modernization of a two-wheeled dic
 * `ESP32` - Wireless communication project files.
 * `3D Model` - 3D models used in the project. Designed for 3D printing. Since these parts are highly susceptible to mechanical damage, printing with a high infill percentage is strongly recommended.
 * `VESC_BACKUP` - Configuration backups for the motors. **WARNING:** An older version of the VESC Tool must be used. Newer versions have deprecated or reduced support for brushed motors.
-* `measurements` - Sensor readings and data collected using SerialPlot, analyzed in MATLAB (data structure: ctual right motor current, Actual left motor current, Target right motor current, Target left motor current, Nacelle tilt angle, Target nacelle tilt angle, Right motor speed, Left motor speed, Target right motor speed, Target left motor speed).
+* `measurements` - Sensor readings and data collected using SerialPlot, analyzed in MATLAB (data structure: Actual right motor current, Actual left motor current, Target right motor current, Target left motor current, Nacelle tilt angle, Target nacelle tilt angle, Right motor speed, Left motor speed, Target right motor speed, Target left motor speed).
 * `code_copy` and `code_copy_v2` - Backups of older code versions and specific measurement programs used for system identification.
 * `Use_Instruction` - A file containing detailed instructions on how to control and operate the vehicle.
 
